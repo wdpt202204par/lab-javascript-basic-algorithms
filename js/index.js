@@ -6,7 +6,7 @@ let hacker2 = "Cécile"
 console.log(`The navigator's name is ${hacker2}`) //1.4
 
 // Iteration 2: Conditionals
-if (hacker1.length < hacker2.length)
+
 
 // Iteration 3: Loops// Iteration 1: Names and Input
 let hacker1Loop = ""
