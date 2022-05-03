@@ -6,11 +6,11 @@ let navigator = "Bérénice";
 console.log("The navigator name is, " + navigator);
 
 // Iteration 2: Conditionals
-function longestName(i);{
+function longestName() {
     let result = '';
-    if ( driver.length < navigator.length);{
+    if ( driver.length < navigator.length) {
       result = navigator;
-    } if ( driver.length > navigator.length); {
+    } if ( driver.length > navigator.length) {
       result = driver;
     } else {
       result = "Same letter number";
@@ -21,13 +21,13 @@ function longestName(i);{
 
 
 // Iteration 3: Loops
-function upSep ();{
+function upSep () {
     let upperCaseDriver = driver.toUpperCase;
     let separateUppercase = upperCaseDriver.split(" ");
     }
     console.log(upSep);
     
-    function revNav ();{
+    function revNav () {
     let reverseNavigator = navigator.split(" ").reverse().joint("");
     }
     console.log(revNav)
