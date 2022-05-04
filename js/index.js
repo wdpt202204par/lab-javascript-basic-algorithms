@@ -7,7 +7,7 @@ console.log("The navigator name is, " + navigator);
 
 // Iteration 2: Conditionals
 function longestName() {
-    let result = '';
+    let result;
     if ( driver.length < navigator.length) {
       result = navigator;
     } if ( driver.length > navigator.length) {
