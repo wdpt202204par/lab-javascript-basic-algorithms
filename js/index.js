@@ -8,6 +8,7 @@ console.log("The navigator name is, " + navigator);
 // Iteration 2: Conditionals
 function longestName() {
     let result;
+    for (let i = 0; i <= 20; i++) {
     if ( driver.length < navigator.length) {
       result = navigator;
     } if ( driver.length > navigator.length) {
@@ -16,6 +17,7 @@ function longestName() {
       result = "Same letter number";
     }
   }
+}
   
   console.log(longestName(${result}));
 
