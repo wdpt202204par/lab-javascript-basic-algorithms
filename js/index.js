@@ -18,10 +18,11 @@ console.log(`The navigator name is, ${navigator}`);
       console.log("Same letter number");
     }
 
-// attention, erreur à cause des backsticks (``). Pour appeler une variable avec ${}, nous devons obligatoirement utiliser les backsticks. Dans ma version, inutile de déclarer une variable intermédiaire pour la longueur des variables 'driver' et 'navigator'.
+// attention, erreur à cause des backsticks (``). Pour appeler une variable avec ${}, nous devons obligatoirement utiliser les backsticks. Dans ma version, inutile de déclarer une variable intermédiaire pour la longueur des variables 'driver' et 'navigator'.//
 
 
 // Iteration 3: Loops
+
 let result = '';
 
   for (let i = 0; i < navigator.length; i++) {
@@ -33,11 +34,9 @@ if (i !== navigator.length-1) {
 }
 console.log(result);
 
-// la boucle 'for' commence par expliquer ses paramètres ou fontionnement. Ex : 'let i = 0' veut dire que nous commençons du début ; "navigator.length" signifie que notre limite est le nombre de caractères de la variable navigator ; "i++" explique un sens de la bouble qui dans notre cas est croissant.//
-
-// nous déclarons des limites de départ et de fin ainsi qu'un sens d'exécution.//
-
-// la suite += permet de traiter chaque caractère d'une chaine à la suite en y intégrant le résultat choisi. Exemple, je veux rajouter un séparateur entre chaque lettre d'un nom de famille//
+// la boucle 'for' commence par expliquer ses paramètres ou fontionnement. Ex : 'let i = 0' veut dire que nous commençons du début ; "navigator.length" signifie que notre limite est le nombre de caractères de la variable navigator ; "i++" explique un sens de la bouble qui dans notre cas est croissant. //
+// nous déclarons des limites de départ et de fin ainsi qu'un sens d'exécution. //
+// la suite += permet de traiter chaque caractère d'une chaine à la suite en y intégrant le résultat choisi. Exemple, je veux rajouter un séparateur entre chaque lettre d'un nom de famille. //
 
 
 let reverse = "";
@@ -62,9 +61,6 @@ if (localeComparison < 0) {
 
 
 //// peut-on décider de n'utiliser que les backsticks ? ////
-
 //// peut-on se passer des apostrophes comme équivalent guillemet sans être hors conventions ? ////
-
 //// réserver les guillemets orthographique pour les seules "citations" est-il envisageable ? ////
-
 //// peut-on décider de ne jamais utiliser le var par simplicité ? ////
