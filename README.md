@@ -2,6 +2,9 @@
 
 # LAB | JS Basic Algorithms 
 
+<img width="991" alt="image" src="https://user-images.githubusercontent.com/76580/167262782-5e94d118-2e98-46bb-9893-6303881cb992.png">
+
+
 Welcome to your first bootcamp exercise at Ironhack!
 
 The goal of this exercise is to get you familiarized with the primitive data structures in JavaScript, which we just covered in the class. Feel free to reference lesson materials and don't limit yourself but be curious and use Google to explore multiple solutions.
