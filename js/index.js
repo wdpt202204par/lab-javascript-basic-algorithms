@@ -34,9 +34,9 @@ if (i !== navigator.length-1) {
 }
 console.log(result);
 
-// la boucle 'for' commence par expliquer ses paramètres ou fontionnement. Ex : 'let i = 0' veut dire que nous commençons du début ; "navigator.length" signifie que notre limite est le nombre de caractères de la variable navigator ; "i++" explique un sens de la bouble qui dans notre cas est croissant. //
-// nous déclarons des limites de départ et de fin ainsi qu'un sens d'exécution. //
-// la suite += permet de traiter chaque caractère d'une chaine à la suite en y intégrant le résultat choisi. Exemple, je veux rajouter un séparateur entre chaque lettre d'un nom de famille. //
+// la boucle 'for' commence par expliquer ses paramètres ou fontionnement. Ex : 'let i = 0' veut dire que nous commençons du début ; "navigator.length" signifie que notre limite est le nombre de caractères de la variable navigator ; "i++" explique un sens de la bouble qui dans notre cas est croissant.
+// nous déclarons des limites de départ et de fin ainsi qu'un sens d'exécution.
+// la suite += permet de traiter chaque caractère d'une chaine à la suite en y intégrant le résultat choisi. Exemple, je veux rajouter un séparateur entre chaque lettre d'un nom de famille.
 
 
 let reverse = "";
@@ -45,7 +45,8 @@ for (let i = navigator.length - 1; i >= 0; i--) {
 }
 console.log(reverse);
 
-// dans cet exemple je démarre ma boucle en prenant en compte le nombre de caractères de Bérénice soit 8, auquel je soustrait 1. Le décompte commence donc à 7 et finira à 0. Le 0 est donc considéré comme un caractère "let i = 8 - 1". Comme "i >= 0" celà signifie qu'il s'arrete à 0 et ne peut pas être négatif. "i--" signifie un sens décroissant.//
+/* dans cet exemple je démarre ma boucle en prenant en compte le nombre de caractères de Bérénice soit 8, auquel je soustrait 1.
+Le décompte commence donc à 7 et finira à 0. Le 0 est donc considéré comme un caractère "let i = 8 - 1". Comme "i >= 0" celà signifie qu'il s'arrete à 0 et ne peut pas être négatif. "i--" signifie un sens décroissant.*/
 
 
 let localeComparison = driver.localeCompare(navigator);
@@ -57,10 +58,10 @@ if (localeComparison < 0) {
   console.log("What?! You both got the same name?");
 }
 
-// localeCompare sert à créer un ordre alphanumérique entre deux chaines. Ceci permet de faire un classement.//
+// localeCompare sert à créer un ordre alphanumérique entre deux chaines. Ceci permet de faire un classement.
 
 
-//// peut-on décider de n'utiliser que les backsticks ? ////
-//// peut-on se passer des apostrophes comme équivalent guillemet sans être hors conventions ? ////
-//// réserver les guillemets orthographique pour les seules "citations" est-il envisageable ? ////
-//// peut-on décider de ne jamais utiliser le var par simplicité ? ////
+// peut-on décider de n'utiliser que les backsticks ?
+// peut-on se passer des apostrophes comme équivalent guillemet sans être hors conventions ?
+// réserver les guillemets orthographique pour les seules "citations" est-il envisageable ?
+// peut-on décider de ne jamais utiliser le var par simplicité ?
